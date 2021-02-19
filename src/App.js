@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 // import './App.css';
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
@@ -9,10 +9,8 @@ import Resume from "./pages/Resume/Resume";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
-  const [error, setError] = useState("");
   return (
     <div className="App">
-      <AlertContext.Provider value={{ error, setError }}>
         <Router basename="">
           <Switch>
             <Route exact path="/" component={Home} />
@@ -21,7 +19,6 @@ function App() {
             <Route path="/Resume" component={Resume} />
           </Switch>
         </Router>
-      </AlertContext.Provider>
     </div>
   );
 }
