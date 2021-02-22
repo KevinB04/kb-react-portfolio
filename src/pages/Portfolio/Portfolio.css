@@ -1,0 +1,29 @@
+.navbar-brand {
+    background: teal;
+    color: white;
+    text-align: center;
+}
+
+
+.jumbotron {
+    background-color: transparent;
+  }
+
+h1 {
+    color: teal;
+}
+
+body {
+    background-image: url("https://user-images.githubusercontent.com/73902490/101559559-5be87680-398f-11eb-828c-ee9fe6458478.png");
+}
+
+p {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 32px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
