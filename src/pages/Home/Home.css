@@ -1,0 +1,25 @@
+.main {
+    max-width: 660px;
+    display: flex;
+    align-content: center;
+    background-color: white;
+    margin-left: 250px;
+}
+
+.navbar-brand {
+    background: teal;
+    color: white;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+body {
+    background-image: url("https://user-images.githubusercontent.com/73902490/101559559-5be87680-398f-11eb-828c-ee9fe6458478.png");
+}
+
+img {
+    width: 75%;
+    height: auto;
+}
