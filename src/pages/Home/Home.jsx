@@ -1,15 +1,36 @@
 import React from "react";
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
-    return (
-        <>
-            <Header />
-            <h1>Home page</h1>
-            <Footer />
-        </>
-    );
+  return (
+    <div>
+      <main className="container">
+        <section className="row">
+          <div className="col-sm-12">
+            <h1 className="display-4">About Me</h1>
+            <hr />
+            <img src="./assets/images/profile-image.jpeg" class="m-1"></img>
+            <p>
+              {" "}
+              <p>
+                Thank you for visiting my page! I have recently acquired a new
+                love for web development as I navigate through a full-stack web
+                development boot camp at Georgia Tech. Before this endeavor, I
+                dabbled in Hollywood with numerous credits in film and
+                television. Credits include a few crime reenactment shows on
+                Investigation Discovery, a scene with Ryan Gosling in First Man,
+                and a small scene in Ant-Man!
+                <br></br>
+                Aside from film, I have recently began developing skills in
+                woodworking in order to create cutting boards. A separate page
+                for that will be coming soon!
+              </p>
+              <p>Continue to the 'Portfolio' page to see some of my work!</p>
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+  );
 };
 
 export default Home;
