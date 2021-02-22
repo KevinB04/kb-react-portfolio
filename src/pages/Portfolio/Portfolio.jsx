@@ -14,18 +14,19 @@ const Portfolio = () => {
                 <div className="row">
                     <div className="col-sm-6">
                         <p><a href="https://evening-headland-02577.herokuapp.com/">Wavelength</a></p>
-                        <img src="./assets/images/Home.jpg" className="m-1"></img>
+                        <img src="./src/images/Wavelength.jpg" className="m-1"></img>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-sm-6">
                         <p><a href="https://kevinb04.github.io/day-planner/" alt="Day Planner">Day Planner</a></p>
-                        <img src="./assets/images/Daily Planner.jpg" className="m-1"></img>
+                        <img src="./src/images/Daily Planner.jpg" className="m-1"></img>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-sm-6">
                         <p><a href="https://kevinb04.github.io/horiseon-seo/">Horiseon</a></p>
+                        <img src="./src/images/Horiseon.jpg" className="m-1"></img>
                     </div>
                 </div>
             </hr>

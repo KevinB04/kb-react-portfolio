@@ -8,7 +8,7 @@ const Home = () => {
           <div className="col-sm-12">
             <h1 className="display-4">About Me</h1>
             <hr />
-            <img src="./assets/images/profile-image.jpeg" class="m-1"></img>
+            <img src="./src/images/profile-image.jpeg" class="m-1"></img>
             <p>
               {" "}
               <p>
