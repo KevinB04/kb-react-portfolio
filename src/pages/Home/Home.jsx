@@ -18,12 +18,13 @@ const Home = () => {
                 dabbled in Hollywood with numerous credits in film and
                 television. Credits include a few crime reenactment shows on
                 Investigation Discovery, a scene with Ryan Gosling in First Man,
-                and a small scene in Ant-Man!
+                and a small scene in Ant-Man!</p>
                 <br></br>
-                Aside from film, I have recently began developing skills in
+                <p>Aside from film, I have recently began developing skills in
                 woodworking in order to create cutting boards. A separate page
                 for that will be coming soon!
               </p>
+              <br></br>
               <p>Continue to the 'Portfolio' page to see some of my work!</p>
             </p>
           </div>
