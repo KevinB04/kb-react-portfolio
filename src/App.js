@@ -11,14 +11,15 @@ import { HashRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-        <Router basename="">
+        <Router basename="/">
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/Portfolio" component={Portfolio} />
-            <Route path="/Contact" component={Contact} />
-            <Route path="/Resume" component={Resume} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/resume" component={Resume} />
           </Switch>
         </Router>
+        <Footer />
     </div>
   );
 }
