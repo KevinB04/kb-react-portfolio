@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Link} from "react-router-dom";
+import { HashRouter as Router, NavLink} from "react-router-dom";
 
 const Header = () => {
     return (
@@ -13,15 +13,15 @@ const Header = () => {
             <section className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
-                        <a className="nav-link" href="./src/pages/Home/Home">About<span className="sr-only">(current)</span></a>
+                        <a className="nav-link" href="/">About<span className="sr-only"></span></a>
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link" href=".src/pages/Portfolio/Portfolio">Portfolio</a>        
+                        <a className="nav-link" href="/portfolio">Portfolio</a>        
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link" href=".src/pages/Contact/Contact">Contact</a>
+                        <a className="nav-link" href="/contact">Contact</a>
                     </li>
                 </ul>
             </section>
