@@ -1,11 +1,10 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <footer className="footer pt-1 mt-3">
+        <footer className="navbar fixed-bottom">
             <div className="container-fluid text-center">
-                <span>Copyright 2021 Kevin Buttimer</span>
+                <p className>Copyright 2021 Kevin Buttimer</p>
             </div>
         </footer>
     );

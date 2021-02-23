@@ -1,7 +1,7 @@
 import React from "react";
 import { HashRouter as Router, Link} from "react-router-dom";
 
-const Navbar = () => {
+const Header = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <a className="navbar-brand" href="./src/pages/Home/Home">Kevin Buttimer</a>
@@ -29,4 +29,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Header;
