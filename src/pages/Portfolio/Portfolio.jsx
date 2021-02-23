@@ -1,6 +1,5 @@
 import React from "react";
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
+import "./Portfolio.css";
 
 const Portfolio = () => {
     return (
@@ -10,7 +9,7 @@ const Portfolio = () => {
             <div className="col-lg-12">
             </div>
             <h1 className="display-4">Portfolio</h1>
-            <hr className="my-4">
+            <div className="my-4">
                 <div className="row">
                     <div className="col-sm-6">
                         <p><a href="https://evening-headland-02577.herokuapp.com/">Wavelength</a></p>
@@ -29,7 +28,7 @@ const Portfolio = () => {
                         <img src="./src/images/Horiseon.jpg" className="m-1"></img>
                     </div>
                 </div>
-            </hr>
+            </div>
         </div>
     );
 };

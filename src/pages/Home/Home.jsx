@@ -9,7 +9,7 @@ const Home = () => {
           <div className="col-sm-12">
             <h1 className="display-4">About Me</h1>
             <hr />
-            <img src="./src/images/profile-image.jpeg" class="m-1"></img>
+            <img src="./src/images/profile-image.jpeg" className="m-1"></img>
             <p>
               {" "}
               <p>
